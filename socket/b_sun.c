@@ -1,7 +1,6 @@
 #include "tlpi_hdr.h"
 #include <sys/socket.h>
 #include <sys/un.h>
-
 int main(){
 		const char *SOCKNAME = "/tmp/mysock";
 		int sfd;
